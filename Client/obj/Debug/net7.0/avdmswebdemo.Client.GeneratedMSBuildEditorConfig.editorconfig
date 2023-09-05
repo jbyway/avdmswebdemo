@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = avdmswebdemo.Client
 build_property.RootNamespace = avdmswebdemo.Client
-build_property.ProjectDir = c:\Users\jbyway\blazorwasm-spa\avdmswebdemo\Client\
+build_property.ProjectDir = c:\Users\jbyway\avdmswebdemo\Client\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\jbyway\blazorwasm-spa\avdmswebdemo\Client
+build_property.MSBuildProjectDirectory = c:\Users\jbyway\avdmswebdemo\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/jbyway/blazorwasm-spa/avdmswebdemo/Client/App.razor]
+[c:/Users/jbyway/avdmswebdemo/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/jbyway/blazorwasm-spa/avdmswebdemo/Client/Pages/Authentication.razor]
+[c:/Users/jbyway/avdmswebdemo/Client/Pages/Authentication.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/jbyway/blazorwasm-spa/avdmswebdemo/Client/Pages/Counter.razor]
+[c:/Users/jbyway/avdmswebdemo/Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/jbyway/blazorwasm-spa/avdmswebdemo/Client/Pages/FetchData.razor]
+[c:/Users/jbyway/avdmswebdemo/Client/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/jbyway/blazorwasm-spa/avdmswebdemo/Client/Pages/Index.razor]
+[c:/Users/jbyway/avdmswebdemo/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/jbyway/blazorwasm-spa/avdmswebdemo/Client/Shared/LoginDisplay.razor]
+[c:/Users/jbyway/avdmswebdemo/Client/Shared/LoginDisplay.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/jbyway/blazorwasm-spa/avdmswebdemo/Client/Shared/RedirectToLogin.razor]
+[c:/Users/jbyway/avdmswebdemo/Client/Shared/RedirectToLogin.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlZGlyZWN0VG9Mb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/jbyway/blazorwasm-spa/avdmswebdemo/Client/Shared/SurveyPrompt.razor]
+[c:/Users/jbyway/avdmswebdemo/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/jbyway/blazorwasm-spa/avdmswebdemo/Client/_Imports.razor]
+[c:/Users/jbyway/avdmswebdemo/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/jbyway/blazorwasm-spa/avdmswebdemo/Client/Shared/MainLayout.razor]
+[c:/Users/jbyway/avdmswebdemo/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-nmy0dhg8uw
 
-[c:/Users/jbyway/blazorwasm-spa/avdmswebdemo/Client/Shared/NavMenu.razor]
+[c:/Users/jbyway/avdmswebdemo/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-74c41zm930
