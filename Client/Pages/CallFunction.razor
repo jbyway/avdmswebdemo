@@ -16,9 +16,7 @@ protected override async Task OnInitializedAsync()
         request.Headers.Add("Accept", "application/vnd.github.v3+json");
         request.Headers.Add("User-Agent", "HttpClientFactory-Sample");
 
-        request.Content = new StringContent(
-            JsonSerializer.Serialize(new { Name = "Test" })
-        );
+    
         
         var client = ClientFactory.CreateClient();
         var response = await client.SendAsync(request);
@@ -29,5 +27,6 @@ protected override async Task OnInitializedAsync()
 
 }
 
+!response.responseMessage.IsSuccessStatusCode ? response.ReadAsStringAsync()
 
  
