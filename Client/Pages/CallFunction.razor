@@ -1,0 +1,24 @@
+@page "/callfunction"
+@using System.Text.Json
+@using System.Text.Json.Serialization
+@inject IHttpClientFactory ClientFactory 
+
+<h1>Call Function</h1>
+
+@code {
+
+protected override async Task OnInitializedAsync()
+    {
+        var request = new HttpRequestMessage(HttpMethod.Get,
+            "https://avdmsdemofunction.azurewebsites.net/api/HttpTriggerWorkspaces");
+        request.Headers.Add("Accept", "application/vnd.github.v3+json");
+        request.Headers.Add("User-Agent", "HttpClientFactory-Sample");
+
+        request.Content = new StringContent(
+            JsonSerializer.Serialize(new { Name = "Test" })
+        );
+        
+
+    }
+
+}
