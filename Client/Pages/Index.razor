@@ -10,7 +10,8 @@ Welcome to your new app.
 <AuthorizeView>
     <Authorized>
         Hello, @context.User.Identity?.Name!
-        Authentication Type, @context.User.Identity?.AuthenticationType!
+        <br>
+        Authentication Type: @context.User.Identity?.IsAuthenticated
         
         <SurveyPrompt Title="How is Blazor working for you?" />
         
