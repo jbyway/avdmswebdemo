@@ -19,4 +19,10 @@ builder.Services.AddMsalAuthentication(options =>
     options.ProviderOptions.DefaultAccessTokenScopes.Add("api://574a9c57-dfa4-46c1-a876-28d958e45c63/API.Access");
 });
 
+builder.Services.AddScoped(sp => 
+    new HttpClient
+    {
+        BaseAddress = new Uri(builder.HostEnvironment.BaseAddress)
+    });
+
 await builder.Build().RunAsync();
