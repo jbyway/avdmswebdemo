@@ -13,13 +13,13 @@ protected override async Task OnInitializedAsync()
     {
         var request = new HttpRequestMessage(HttpMethod.Get,
             "https://avdmsdemofunction.azurewebsites.net/api/HttpTriggerWorkspaces?name=hellothere");
-        request.Headers.Add("Accept", "application/vnd.github.v3+json");
-        request.Headers.Add("User-Agent", "HttpClientFactory-Sample");
+        
 
     
         
         var client = ClientFactory.CreateClient();
         var response = await client.SendAsync(request);
+        @response.StatusCode.ToString();
     }
 
 
@@ -27,6 +27,7 @@ protected override async Task OnInitializedAsync()
 
 }
 
-!response.responseMessage.IsSuccessStatusCode ? response.ReadAsStringAsync()
+
+
 
  
